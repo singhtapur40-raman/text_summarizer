@@ -18,7 +18,7 @@ tokenizer = T5Tokenizer.from_pretrained("tapursingh108/text-summarizer-model")
 # elif torch.cuda.is_available():
 #     device = torch.device("cuda")
 # else:
-    device = torch.device("cpu")
+device = torch.device("cpu")
 
 model.to(device)
 
