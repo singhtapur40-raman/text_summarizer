@@ -13,11 +13,11 @@ model = T5ForConditionalGeneration.from_pretrained("tapursingh108/text-summarize
 tokenizer = T5Tokenizer.from_pretrained("tapursingh108/text-summarizer-model")
 
 # device
-if torch.backends.mps.is_available():
-    device = torch.device("mps")
-elif torch.cuda.is_available():
-    device = torch.device("cuda")
-else:
+# if torch.backends.mps.is_available():
+#     device = torch.device("mps")
+# elif torch.cuda.is_available():
+#     device = torch.device("cuda")
+# else:
     device = torch.device("cpu")
 
 model.to(device)
