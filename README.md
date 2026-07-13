@@ -9,6 +9,7 @@ This project focuses on abstractive dialogue summarization, where the model unde
 The application is built using FastAPI as the backend, HTML, CSS, and JavaScript for the frontend, and a fine-tuned T5-Small model trained on the SAMSum Dialogue Summarization Dataset.
 
 🚀 Features
+
   Summarizes multi-speaker conversations into concise summaries.
   Fine-tuned Transformer model for dialogue summarization.
   Simple and responsive web interface.
@@ -17,6 +18,7 @@ The application is built using FastAPI as the backend, HTML, CSS, and JavaScript
   Easy to deploy and extend.
   
 🛠️ Tech Stack
+
   Machine Learning
   Python
   Hugging Face Transformers
@@ -27,18 +29,22 @@ The application is built using FastAPI as the backend, HTML, CSS, and JavaScript
   Scikit-learn
   
 Backend
+
   FastAPI
   Uvicorn
   
 Frontend
+
   HTML
   CSS
   JavaScript
 
 Dataset
+
   SAMSum Dialogue Summarization Dataset
 
 📊 Future Improvements
+
   Deploy the application on Hugging Face Spaces or Render.
   Improve summary quality using larger Transformer models such as FLAN-T5 or BART.
   Add support for PDF and document summarization.
